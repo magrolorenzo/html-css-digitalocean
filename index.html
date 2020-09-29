@@ -15,20 +15,17 @@
         <header class="navbar-fixed-top">
 
             <!-- Top Nav -->
-            <nav class="navbar navbar-default top-nav">
+            <nav class="navbar navbar-default top-nav collapse navbar-collapse " id="aaaa">
 
                 <ul class="nav navbar-nav navbar-left">
                     <li>
                         <a href="#" class="top-link">
-
                             <span class="text-uppercase new-span" >
                                 New
                             </span>
-
                             <span class="top-span">
                                 Scale your business, not costs by running your apps on DigitalOcean <i class="fas fa-chevron-right"></i>
                             </span>
-                            
                         </a>
                     </li>
                 </ul>
@@ -51,22 +48,34 @@
             </nav>
 
             <!-- Bottom Nav -->
-            <nav class="navbar navbar-default bottom-nav">
+            <nav class="navbar navbar-default bottom-nav ">
 
-                <div class="navbar-brand">
-                    <a href="#" >
-                        <img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo" class="logo-img">
-                    </a>
+                <div class="nav navbar-nav navbar-left">
+
+                    <div class="navbar-brand">
+                        <a href="#">
+                            <img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo" class="logo-img">
+                        </a>
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
                 </div>
 
-                <ul class="nav navbar-nav navbar-left">
+                <ul class="nav navbar-nav navbar-left collapse navbar-collapse">
+
                     <li>
-                        <a href="#" class="">
+                        <a href="#" class="arrow-down">
                             Products
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="">
+                        <a href="#" class="arrow-down">
                             Solutions
                         </a>
                     </li>
@@ -81,7 +90,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="">
+                        <a href="#" class="arrow-down">
                             Community
                         </a>
                     </li>
@@ -92,12 +101,15 @@
                     </li>
                 </ul>
 
-                <ul class="nav navbar-nav navbar-right">
+
+
+
+                <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
                     <li>
-                        <a href="#">Sign In</a>
+                        <a href="#" class="btn btn-default white-button" id="sign-in">Sign In</a>
                     </li>
                     <li>
-                        <a href="#">Sign Up</a>
+                        <a href="#" class="btn btn-default blue-button" id="sign-up">Sign Up</a>
                     </li>
                 </ul>
 

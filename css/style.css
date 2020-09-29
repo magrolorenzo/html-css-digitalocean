@@ -1,8 +1,37 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.navbar{
+    background-color: white;
+    min-height: 0;
+}
+.btn.btn-default.white-button{
+    background-color: white;
+    color: #006aff;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+    padding: 10px 16px;
+}
+
+.btn.btn-default.blue-button{
+    background-color: #006aff;
+    color: white;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+    padding: 10px 16px;
+}
 
 /*_____________________ Header _____________________*/
+
+.navbar-left, .navbar-right{
+    margin: 0;
+}
+
+.navbar-left li, .navbar-right li{
+    padding: 0;
+}
+
+/*_________ Top Nav _________*/
 .top-nav{
     height: 40px;
     padding: 0 25px;
@@ -27,34 +56,63 @@ body{
     border-radius: 5px;
 }
 
-.top-span{
-
-
-}
-
-
-
-
-
+/*_________ Bottom Nav _________*/
 .bottom-nav{
-    height: 66px;
+    min-height: 66px;
     padding: 10px 25px;
     margin: 0;
     border: 0;
 }
 
-.navbar-left, .navbar-right{
-    margin: 0;
-}
-
-.navbar-left li, .navbar-right li{
-    padding: 0;
-}
 .navbar-brand{
-    padding: 0 25px;
+    height: 100%;
+    padding: 9px 25px;
+    vertical-align: middle;
 }
 
 .logo-img{
     width: 172px;
     height: 28px;
+}
+
+.bottom-nav .navbar-nav > li > a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #031b4f;
+}
+
+.arrow-down:after{
+    content: "\f078";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 700;
+    color: #031b4e;
+}
+
+#sign-in{
+    margin-right: 15px;
+}
+
+
+
+/************ Media Query ***********/
+@media screen and (min-width: 768px){
+
+    .navbar-toggle {
+        display: inline-block;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-collapse.collapse {
+        display: block!important; /* per sovrascrivere l'important di bootstrap */
+    }
+
 }
