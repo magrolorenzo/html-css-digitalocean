@@ -92,7 +92,20 @@ body{
     margin-right: 15px;
 }
 
+/*_____________________ Header _____________________*/
+.welcome{
+    margin-top: 123px;
+    height: 900px;
+    color: white;
+    background-color:#0069ff;
+    background-image:url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+    background-position: center;
+    background-size: cover;
+}
 
+.left-welcome{
+    margin: 300px 0;
+}
 
 /************ Media Query ***********/
 @media screen and (min-width: 768px){
