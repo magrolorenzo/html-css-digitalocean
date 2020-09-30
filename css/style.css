@@ -3,7 +3,14 @@ body{
 }
 
 .container{
+}
 
+.grey-bg{
+    background-color: #f3f5f9;
+}
+
+.dark-blue-text{
+    color: #031b4e;
 }
 
 .navbar{
@@ -61,7 +68,6 @@ body{
     font-size: 9px;
     padding: 4px 9px;
     margin-right: 10px;
-    color: #031b4e;
     background-color: #00d7d2;
     border-radius: 5px;
 }
@@ -145,8 +151,6 @@ body{
 .card-header{
     padding-top: 16px;
     padding-bottom: 12px;
-    color: #031b4e;
-    background-color: #f3f5f9;
     text-align: center;
     border-radius: 6px 6px 0 0;
 
@@ -158,7 +162,6 @@ body{
 
 .card-content{
     padding: 32px;
-    color: #031b4e;
 }
 
 .form-group{
@@ -202,7 +205,6 @@ form .btn.btn-default.blue-button{
 
 /*_____________________ Business Solutions _____________________*/
 .business-solutions{
-    background-color: #f3f5f9;
     padding: 64px 24px;
     text-align: center;
 }
@@ -238,7 +240,6 @@ form .btn.btn-default.blue-button{
     margin-bottom: 70px;
 }
 .deploy-header h2{
-    color: #031b4e;
     font-size: 36px;
     font-weight: 600;
 }
@@ -289,7 +290,6 @@ button.list-group-item:focus{
 }
 
 .wrapper h5{
-    color: #031b4e;
     font-size: 18px;
     font-weight: 700;
     margin-top: 25px;
@@ -301,11 +301,44 @@ button.list-group-item:focus{
     font-size: 16px;
 }
 
+/*_____________________ Deploy _____________________*/
+.designed-for-developers{
+    text-align: center;
+    padding: 120px 0 ;
+}
 
+.dfp-header{
+    margin-bottom: 50px;
+}
+.dfp-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
 
+.dfp-header p {
+    font-size: 20px;
+    margin-top: 20px;
+}
 
+.carousel-container img {
+    max-width: 780px;
+}
 
+.carousel-parag{
+    color: #5b6987;
+    font-size: 16px;
+    margin-top: 30px;
+    display: inline-block;
+}
 
+.dot-container{
+    margin: 20px 0;
+}
+
+.fa-circle{
+    font-size: 14px;
+}
 
 /************ Media Query ***********/
 @media screen and (min-width: 768px){
@@ -340,21 +373,16 @@ button.list-group-item:focus{
     .wrapper{
         text-align: left;
     }
-
-
-
-
-
-
 }
+
 
 @media screen and (min-width: 992px){
 
     .card{
         margin-top: 120px
     }
-
 }
+
 
 @media screen and (min-width: 1200px){
 
