@@ -1,10 +1,17 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.container{
+
+}
+
 .navbar{
     background-color: white;
     min-height: 0;
+    border-radius: 0;
 }
+
 .btn.btn-default.white-button{
     background-color: white;
     color: #006aff;
@@ -46,6 +53,7 @@ body{
 .navbar-default .navbar-nav > li > a:hover{
     color: #006aff;
 }
+
 
 .new-span{
     font-size: 9px;
@@ -92,9 +100,9 @@ body{
     margin-right: 15px;
 }
 
-/*_____________________ Header _____________________*/
+/*_____________________ Welcome _____________________*/
 .welcome{
-    margin-top: 123px;
+    padding-top: 150px;
     height: 900px;
     color: white;
     background-color:#0069ff;
@@ -104,8 +112,85 @@ body{
 }
 
 .left-welcome{
-    margin: 300px 0;
+    margin-top: 80px;
+    text-align: center;
 }
+
+.left-welcome div{
+    max-width: 670px;
+}
+
+.left-welcome div h1{
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.left-welcome div p{
+    font-size: 24px;
+}
+
+.card{
+    width: 370px;
+    height: 469px;
+    background-color: white;
+    margin: auto;
+    margin-top: 32px;
+    border-radius: 6px;
+}
+
+.card-header{
+    padding-top: 16px;
+    padding-bottom: 12px;
+    color: #031b4e;
+    background-color: #f3f5f9;
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+
+}
+.card-title{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.card-content{
+    padding: 32px;
+    color: #031b4e;
+}
+
+.form-group{
+    margin-bottom: 8px;
+}
+
+.form-control{
+    height: 48px;
+    font-size: 16px;
+    padding: 16px;
+    border-color: #e5e8ed;
+    border-radius: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /************ Media Query ***********/
 @media screen and (min-width: 768px){
@@ -113,9 +198,29 @@ body{
     .navbar-toggle {
         display: inline-block;
     }
+
     .navbar-collapse.collapse {
         display: none!important;
     }
+
+    .left-welcome{
+        margin-top: 200px;
+        text-align: left;
+    }
+
+    .left-welcome div h1{
+        font-size: 58px;
+    }
+
+
+}
+
+@media screen and (min-width: 992px){
+
+    .card{
+        margin-top: 120px
+    }
+
 }
 
 @media screen and (min-width: 1200px){
