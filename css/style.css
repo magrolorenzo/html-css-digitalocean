@@ -230,7 +230,6 @@ form .btn.btn-default.blue-button{
 
 /*_____________________ Deploy _____________________*/
 .deploy{
-    min-height: 860px;
     text-align: center;
     padding: 120px 0;
 }
@@ -251,17 +250,23 @@ form .btn.btn-default.blue-button{
     margin-top: 20px;
 }
 
+.list-group{
+    margin-bottom: 30px;
+}
+
 .list-group-item,
 .list-group-item:first-child,
 .list-group-item:last-child,
 button.list-group-item {
+    text-align: center;
     font-size: 16px;
-    font-weight: 400;
     color: rgba(3, 27, 78, 0.6);
     padding: 15px 20px;
     border: none;
     border-radius: 0;
-    border-left: 1px solid rgba(3, 27, 78, 0.6) ;
+    border-bottom: 1px solid rgba(3, 27, 78, 0.6) ;
+    max-width: 100px;
+    display: inline-block;
 }
 
 a.list-group-item:hover,
@@ -275,9 +280,26 @@ button.list-group-item:focus{
     color: #031b4e;
     background-color: white;
     border-color: #0069ff;
+    font-weight: 700;
     outline: none;
 }
 
+.wrapper{
+    margin-bottom: 30px;
+}
+
+.wrapper h5{
+    color: #031b4e;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.wrapper p{
+    color: #5b6987;
+    font-size: 16px;
+}
 
 
 
@@ -304,6 +326,24 @@ button.list-group-item:focus{
     .left-welcome div h1{
         font-size: 58px;
     }
+
+    .list-group-item,
+    .list-group-item:first-child,
+    .list-group-item:last-child,
+    button.list-group-item {
+        text-align: left;
+        display: block;
+        border: none;
+        border-left: 1px solid rgba(3, 27, 78, 0.6) ;
+    }
+
+    .wrapper{
+        text-align: left;
+    }
+
+
+
+
 
 
 }
