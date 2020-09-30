@@ -18,6 +18,7 @@ body{
     border: 1px solid #006aff;
     border-radius: 5px;
     padding: 10px 16px;
+    font-size: 16px;
 }
 
 .btn.btn-default.blue-button{
@@ -26,6 +27,7 @@ body{
     border: 1px solid #006aff;
     border-radius: 5px;
     padding: 10px 16px;
+    font-size: 16px;
 }
 
 /*_____________________ Header _____________________*/
@@ -103,7 +105,8 @@ body{
 /*_____________________ Welcome _____________________*/
 .welcome{
     padding-top: 150px;
-    height: 900px;
+    padding-bottom: 60px;
+    min-height: 900px;
     color: white;
     background-color:#0069ff;
     background-image:url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
@@ -112,7 +115,7 @@ body{
 }
 
 .left-welcome{
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -167,10 +170,34 @@ body{
     padding: 16px;
     border-color: #e5e8ed;
     border-radius: 3px;
-
 }
 
+form .btn.btn-default.blue-button{
+    width: 100%;
+    padding: 20px 30px;
+    font-weight: 700;
+}
 
+.card-sign-in{
+    border-top: 1px solid #f3f5f9;
+    padding: 32px;
+}
+
+#google-sign-up{
+    font-weight: 700;
+    width: 80%;
+    margin-right: 5px;
+}
+
+#github-button{
+    font-size: 18px;
+}
+
+.terms{
+    font-size: 12px;
+    margin: 12px;
+    text-align: center;
+}
 
 
 
