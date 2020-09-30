@@ -112,6 +112,7 @@ body{
     background-image:url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-position: center;
     background-size: cover;
+    margin-bottom: 0;
 }
 
 .left-welcome{
@@ -199,10 +200,33 @@ form .btn.btn-default.blue-button{
     text-align: center;
 }
 
+/*_____________________ Business Solutions _____________________*/
+.business-solutions{
+    background-color: #f3f5f9;
+    padding: 64px 24px;
+    text-align: center;
+}
 
+.business-solutions-title{
+    color: #5b6987;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
 
+.link-container{
+    margin: 20px 0;
+}
+.business-link{
+    color: #0069ff;
+    font-size: 16px;
+    font-weight: 700;
+}
 
-
+.business-link:hover{
+    color: #1633ff;
+    text-decoration: none;
+}
 
 
 
