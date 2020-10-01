@@ -304,7 +304,7 @@ button.list-group-item:focus{
     font-size: 16px;
 }
 
-/*_____________________ Deploy _____________________*/
+/*_____________________ Design for developers _____________________*/
 .designed-for-developers{
     text-align: center;
     padding: 120px 0 ;
@@ -430,10 +430,6 @@ button.list-group-item:focus{
     margin-top: 64px;
 }
 
-.wc-list{
-
-}
-
 .city-abbrev{
     font-weight: 700;
 }
@@ -465,6 +461,7 @@ button.list-group-item:focus{
 .dt-header{
     margin-bottom: 50px;
 }
+
 .dt-title{
     font-size: 36px;
     font-weight: 700;
@@ -483,10 +480,13 @@ button.list-group-item:focus{
 }
 
 .quote-container{
+    display: inline-block;
     background-color: white;
-    border-radius: 5px;
-    margin: 40px;
-    padding: 40px 30px;
+    border-radius: 6px;
+    margin: 40px 0;
+    padding: 40px;
+    max-width: 970px;
+    border: 1px solid red;
 }
 
 .quote-logo-container img{
@@ -498,6 +498,7 @@ button.list-group-item:focus{
     content:"\f060";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
+    display: inline-block;
 }
 
 .quote-container::after{
@@ -507,18 +508,102 @@ button.list-group-item:focus{
 }
 
 .quote-parag{
+    width: 80%;
     color: #5b6987;
     font-weight: 100;
     font-size: 24px;
-    margin-top: 30px;
+    margin: 30px 0;
+    display: inline-block;
+    border: 1px solid red;
+}
+
+
+/*_____________________ Get started _____________________*/
+.get-started{
+    padding: 64px 24px;
+    background-image: url('https://prismic-io.s3.amazonaws.com/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg');
+    background-size: cover;
+}
+.get-started-now{
+    color: white;
+}
+
+.get-started-now h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.create-your-account{
+    text-align: right;
+}
+.create-your-account .btn.btn-default.white-button{
+    height:100%;
+    padding: 15px;
+    font-size: 18px;
     display: inline-block;
 }
 
 
+/*_____________________ Footer _____________________*/
+footer{
+    height: 700px;
+    background-color: #010e28;
+    padding: 48px 0;
+    font-size: 16px;
+}
 
+footer a{
+    color: #ffffff80;
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
 
+.footer-links{
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff80;
+}
 
+.ul-link{
+    text-align:left;
+    list-style: none;
+    color: #ffffff80;
+}
 
+.ul-link li:first-child{
+    color: white;
+    margin: 25px 0;
+}
+
+.li-link{
+    margin-bottom: 10px;
+}
+
+.copyright p{
+    display: inline-block;
+    margin-left: 10px;
+    color: #ffffff80;
+
+}
+
+.footer-social{
+    padding-top: 35px;
+}
+
+.social-icons{
+    text-align: right;
+}
+
+.social-icons-ul{
+    list-style: none;
+}
+
+.social-icons-ul li{
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 15px;
+}
 
 
 
