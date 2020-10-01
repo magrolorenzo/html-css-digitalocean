@@ -398,6 +398,132 @@ button.list-group-item:focus{
     display: inline-block;
 }
 
+/*_____________________ World Customers _____________________*/
+.world-customers{
+    padding: 120px 24px;
+    color: white;
+    background:#031b4e;
+    background-image: url('https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wc-top-row{
+    text-align: center;
+}
+
+.wc-title{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.wc-parag{
+    font-size: 20px;
+}
+
+.wc-parag a{
+    font-size: 20px;
+}
+
+.wc-bottom-row{
+    margin-top: 64px;
+}
+
+.wc-list{
+
+}
+
+.city-abbrev{
+    font-weight: 700;
+}
+.city-name{
+    display: inline-block;
+    margin: 10px 0 10px 40px;
+    opacity: 0.6;
+}
+.wc-list-item{
+
+}
+
+.test-speed-link{
+    color:#00d7d2;
+    margin-top: 10px;
+}
+.test-speed-link:hover{
+    color:#1633ff;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/*_____________________ Development teams _____________________*/
+.development-teams{
+    text-align: center;
+    padding: 120px 0 ;
+}
+
+.dt-header{
+    margin-bottom: 50px;
+}
+.dt-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.dt-parag{
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.dt-parag a{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.quote-container{
+    background-color: white;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 40px 30px;
+}
+
+.quote-logo-container img{
+    width: 200px;
+    height: auto;
+}
+
+.quote-container::before{
+    content:"\f060";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.quote-container::after{
+    content:"\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.quote-parag{
+    color: #5b6987;
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
 /************ Media Query ***********/
 @media screen and (min-width: 768px){
 
