@@ -310,19 +310,37 @@ button.list-group-item:focus{
 .dfp-header{
     margin-bottom: 50px;
 }
-.dfp-header h2 {
+.dfp-title{
     font-size: 36px;
     font-weight: 700;
     margin: 0;
 }
 
-.dfp-header p {
+.dfp-parag{
     font-size: 20px;
     margin-top: 20px;
 }
 
-.carousel-container img {
+.carousel-img-container img {
     max-width: 780px;
+}
+
+.carousel-img-container{
+    margin: 30px 60px 20px 60px;
+}
+
+.carousel-img-container::before{
+    content:"\f060";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 70px;
+}
+
+.carousel-img-container::after{
+    content:"\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 70px;
 }
 
 .carousel-parag{
