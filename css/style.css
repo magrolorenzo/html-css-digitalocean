@@ -479,14 +479,24 @@ button.list-group-item:focus{
     font-weight: 100;
 }
 
+.colonna{
+    border: 1px solid blue;
+}
+
 .quote-container{
     display: inline-block;
     background-color: white;
     border-radius: 6px;
-    margin: 40px 0;
-    padding: 40px;
+    margin: 40px;
+    padding: 40px 0;
     max-width: 970px;
     border: 1px solid red;
+}
+
+.quote-wrapper{
+    display: inline-block;
+    border: 1px solid green;
+    width: 70%;
 }
 
 .quote-logo-container img{
@@ -498,7 +508,6 @@ button.list-group-item:focus{
     content:"\f060";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    display: inline-block;
 }
 
 .quote-container::after{
@@ -514,7 +523,6 @@ button.list-group-item:focus{
     font-size: 24px;
     margin: 30px 0;
     display: inline-block;
-    border: 1px solid red;
 }
 
 
