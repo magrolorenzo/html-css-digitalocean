@@ -151,7 +151,8 @@ body{
 }
 
 .card{
-    width: 370px;
+    width: 100%;
+    max-width: 370px;
     height: 469px;
     background-color: white;
     margin: auto;
@@ -325,6 +326,7 @@ button.list-group-item:focus{
 }
 
 .carousel-img-container img {
+    width: 100%;
     max-width: 780px;
 }
 
@@ -345,6 +347,12 @@ button.list-group-item:focus{
     font-weight: 900;
     margin-left: 70px;
 }
+
+.carousel-img-container::before,
+.carousel-img-container::after{
+    display: none;
+}
+
 
 .carousel-parag{
     color: #5b6987;
@@ -512,6 +520,11 @@ button.list-group-item:focus{
     font-weight: 900;
 }
 
+.quote-container::before,
+.quote-container::after{
+    display: none;
+}
+
 .quote-parag{
     width: 80%;
     color: #5b6987;
@@ -527,9 +540,11 @@ button.list-group-item:focus{
     padding: 64px 24px;
     background-image: url('https://prismic-io.s3.amazonaws.com/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg');
     background-size: cover;
+    vertical-align: middle;
 }
 .get-started-now{
     color: white;
+    text-align: center;
 }
 
 .get-started-now h1{
@@ -538,10 +553,11 @@ button.list-group-item:focus{
 }
 
 .create-your-account{
-    text-align: right;
+    text-align: center;
 }
+
 .create-your-account .btn.btn-default.white-button{
-    height:100%;
+    height: 100%;
     padding: 15px;
     font-size: 18px;
     display: inline-block;
@@ -550,10 +566,10 @@ button.list-group-item:focus{
 
 /*_____________________ Footer _____________________*/
 footer{
-    height: 700px;
     background-color: #010e28;
     padding: 48px 0;
     font-size: 16px;
+    text-align: center;
 }
 
 footer a{
@@ -588,7 +604,6 @@ footer a:hover{
     display: inline-block;
     margin-left: 10px;
     color: #ffffff80;
-
 }
 
 .footer-social{
@@ -600,6 +615,7 @@ footer a:hover{
 }
 
 .social-icons-ul{
+    text-align: center;
     list-style: none;
 }
 
@@ -616,6 +632,10 @@ footer a:hover{
 /************ Media Query ***********/
 @media screen and (min-width: 768px){
 
+    .navbar-left{
+        float: none!important;
+    }
+
     .navbar-toggle {
         display: inline-block;
     }
@@ -625,7 +645,6 @@ footer a:hover{
     }
 
     .left-welcome{
-        margin-top: 200px;
         text-align: left;
     }
 
@@ -646,11 +665,24 @@ footer a:hover{
     .wrapper{
         text-align: left;
     }
+
+    .get-started-now{
+        text-align: left;
+    }
+
+    .create-your-account{
+        text-align: right;
+    }
+
 }
 
 
 @media screen and (min-width: 992px){
 
+    .left-welcome{
+        margin-top: 200px;
+
+    }
     .card{
         margin-top: 120px
     }
@@ -658,11 +690,24 @@ footer a:hover{
     .bfb-bottom{
         text-align: left;
     }
+
+    .copyright {
+        text-align: left;
+    }
+
+    .social-icons-ul{
+        text-align: right;
+    }
+
+
 }
 
 
 @media screen and (min-width: 1200px){
 
+    .navbar-left{
+        float: left!important;
+    }
     .navbar-toggle {
         display: none;
     }
@@ -671,4 +716,13 @@ footer a:hover{
         display: block!important; /* per sovrascrivere l'important di bootstrap */
     }
 
+    .carousel-img-container::before,
+    .carousel-img-container::after{
+        display: inline-block;
+    }
+
+    .quote-container::before,
+    .quote-container::after{
+        display: inline-block;
+    }
 }
