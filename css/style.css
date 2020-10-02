@@ -479,24 +479,20 @@ button.list-group-item:focus{
     font-weight: 100;
 }
 
-.colonna{
-    border: 1px solid blue;
-}
 
 .quote-container{
     display: inline-block;
-    background-color: white;
-    border-radius: 6px;
-    margin: 40px;
-    padding: 40px 0;
-    max-width: 970px;
-    border: 1px solid red;
+    margin: 40px 0;
 }
 
 .quote-wrapper{
+    max-width: 970px;
+    background-color: white;
+    padding: 40px 0;
     display: inline-block;
-    border: 1px solid green;
-    width: 70%;
+    margin: 0 50px;
+    vertical-align: middle;
+    border-radius: 6px;
 }
 
 .quote-logo-container img{
